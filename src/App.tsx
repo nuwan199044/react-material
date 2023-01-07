@@ -1,6 +1,7 @@
 import './App.css';
+import { MuiTextField } from './components/MuiTextField';
 // import { MuiButtonGroup } from './components/MuiButtonGroup';
-import { MuiToggleButton } from './components/MuiToggleButton';
+// import { MuiToggleButton } from './components/MuiToggleButton';
 // import { MuiButton } from './components/MuiButton';
 // import { MuiTypography } from './components/MuiTypography';
 
@@ -10,7 +11,8 @@ function App() {
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiButtonGroup /> */}
-      <MuiToggleButton />
+      {/* <MuiToggleButton /> */}
+      <MuiTextField />
     </div>
   );
 }
