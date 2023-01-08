@@ -1,5 +1,6 @@
 import './App.css';
-import { MuiCard } from './components/MuiCard';
+import { MuiAccordion } from './components/MuiAccordion';
+// import { MuiCard } from './components/MuiCard';
 // import { MuiPaperLayout } from './components/MuiPaperLayout';
 // import { MuiGridLayout } from './components/MuiGridLayout';
 // import { MuiLayout } from './components/MuiLayout';
@@ -32,7 +33,8 @@ function App() {
       {/* <MuiLayout /> */}
       {/* <MuiGridLayout /> */}
       {/* <MuiPaperLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordion />
     </div>
   );
 }
