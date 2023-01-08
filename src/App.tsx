@@ -1,5 +1,6 @@
 import './App.css';
-import { MuiGridLayout } from './components/MuiGridLayout';
+import { MuiPaperLayout } from './components/MuiPaperLayout';
+// import { MuiGridLayout } from './components/MuiGridLayout';
 // import { MuiLayout } from './components/MuiLayout';
 // import { MuiAutocomplete } from './components/MuiAutocomplete';
 // import { MuiRating } from './components/MuiRating';
@@ -28,7 +29,8 @@ function App() {
       {/* <MuiRating /> */}
       {/* <MuiAutocomplete /> */}
       {/* <MuiLayout /> */}
-      <MuiGridLayout />
+      {/* <MuiGridLayout /> */}
+      <MuiPaperLayout />
     </div>
   );
 }
