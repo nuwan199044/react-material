@@ -1,5 +1,6 @@
 import './App.css';
-import { MuiLink } from './components/MuiLink';
+import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
+// import { MuiLink } from './components/MuiLink';
 // import { MuiMenu } from './components/MuiMenu';
 // import { MuiNavbar } from './components/MuiNavbar';
 // import { MuiAccordion } from './components/MuiAccordion';
@@ -40,7 +41,8 @@ function App() {
       {/* <MuiAccordion /> */}
       {/* <MuiNavbar /> */}
       {/* <MuiMenu /> */}
-      <MuiLink />
+      {/* <MuiLink /> */}
+      <MuiBreadcrumbs />
     </div>
   );
 }
